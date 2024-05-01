@@ -26,8 +26,8 @@ public class Qes1_13 {
 		lng = 0;
 		flt = 0.0f;
 		dbl = 0.0;
-		chr = 'A';
-		str =  "abc";
+		chr = '\u0000';
+		str =  "null";
 		bln = false;
 		
 		
