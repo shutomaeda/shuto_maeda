@@ -27,7 +27,7 @@ public class Qes1_13 {
 		flt = 0.0f;
 		dbl = 0.0;
 		chr = '\u0000';
-		str =  "null";
+		str =  null;
 		bln = false;
 		
 		
