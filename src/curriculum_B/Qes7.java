@@ -23,6 +23,7 @@ public class Qes7 {
 			society[i] = scan.nextInt();
 			System.out.println();
 		}
+		scan.close();
 		//　生徒ごとの平均点
 		for(int i = 0;i < student;i++) {
 			double avg = (english[i] + math[i] + science[i] + society[i])/4;
