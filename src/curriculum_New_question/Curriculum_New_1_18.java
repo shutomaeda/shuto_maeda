@@ -29,7 +29,6 @@ public class Curriculum_New_1_18 {
 		for(int a = 0;a < i;a++) {
 			int x = rand.nextInt(101)+1;
 			num[a] = x;
-			System.out.print(num[a]+" ");
 		}
 		
 		return num;
