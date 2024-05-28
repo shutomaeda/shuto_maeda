@@ -29,8 +29,8 @@ public class Curriculum_New_1_18 {
 		for(int a = 0;a < i;a++) {
 			int x = rand.nextInt(101)+1;
 			num[a] = x;
+			System.out.println(num[a]);
 		}
-		
 		return num;
 	};
 	// Q6：引数にQ5で作成したメソッドの返り値を受け取り、受け取った配列の要素の平均値をコンソールに出力するメソッドを作成してください。
