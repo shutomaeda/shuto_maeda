@@ -5,7 +5,7 @@ public class Lion {
 	//フィールド
 	private String name;
 	private double tall;
-	private double speed;
+	private int speed;
 
 	public Lion() {
 		this.name = "ライオン";
@@ -19,7 +19,7 @@ public class Lion {
 	public void setTall(double tall) {
 		this.tall = tall;
 	};
-	public void setSpeed(double speed) {
+	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
 	//ゲッター
