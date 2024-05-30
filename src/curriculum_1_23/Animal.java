@@ -5,10 +5,12 @@ public class Animal {
 	public static void main(String[] args) {
 		// TODO 自動生成されたメソッド・スタブ
 		Lion l = new Lion();
-		
+		l.setName("ライオン");
+		l.setTall(2.1);
+		l.setSpeed(80);
 		System.out.println("動物名："+l.getName());
 		System.out.println("体長："+l.getTall()+"m");
-		System.out.println("速度："+l.getSpeed()+"km/h");
+		System.out.println("速度："+(int)l.getSpeed()+"km/h");
 		
 	}
 
